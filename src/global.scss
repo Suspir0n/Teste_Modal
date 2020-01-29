@@ -24,10 +24,14 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
-.my-custom-modal-css .modal-wrapper {
+.my-custom-modal-css-star .modal-wrapper {
     width: 70%;
     height: 25%;
     top: 80%; 
-    border-radius: 10%;
-    background: #0cd1e8;
+    border-radius: 15%;
+ }
+ .my-custom-modal-css-form .modal-wrapper {
+    width: 95%;
+    height: 90%; 
+    border-radius: 2%;
  }

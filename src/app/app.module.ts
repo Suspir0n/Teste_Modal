@@ -1,3 +1,4 @@
+import { ModalFormComponent } from './modal-form/modal-form.component';
 import { ModalComponent } from './modal/modal.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,8 +12,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  declarations: [AppComponent, ModalComponent],
-  entryComponents: [ModalComponent],
+  declarations: [AppComponent, ModalComponent, ModalFormComponent],
+  entryComponents: [ModalComponent, ModalFormComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
